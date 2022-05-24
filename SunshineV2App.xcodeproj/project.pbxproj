@@ -3,23 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6436F3FA28336DC700656F68 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6436F3F928336DC700656F68 /* extensions.swift */; };
+		6436F3FD283375F200656F68 /* selectionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6436F3FC283375F200656F68 /* selectionview.swift */; };
+		6436F4002833772500656F68 /* modebutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6436F3FF2833772500656F68 /* modebutton.swift */; };
+		6436F409283380C500656F68 /* navigationbutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6436F408283380C500656F68 /* navigationbutton.swift */; };
+		6436F40D2833823B00656F68 /* questionview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6436F40C2833823A00656F68 /* questionview.swift */; };
+		6436F41028338C7B00656F68 /* explainview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6436F40F28338C7B00656F68 /* explainview.swift */; };
+		6479C57C2835EC1900A2BA71 /* progressbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6479C57B2835EC1900A2BA71 /* progressbar.swift */; };
+		6479C57F2835F22300A2BA71 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6479C57E2835F22300A2BA71 /* GoogleService-Info.plist */; };
+		6489A50A283A49C300A10D3D /* gameoverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6489A509283A49C300A10D3D /* gameoverview.swift */; };
+		64A3030328362019002AFD2D /* langitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3030228362019002AFD2D /* langitem.swift */; };
+		64A303282836567D002AFD2D /* answerrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A303272836567D002AFD2D /* answerrow.swift */; };
+		64A3032B2836570D002AFD2D /* answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A3032A2836570D002AFD2D /* answer.swift */; };
 		64D68B9428335E9A00D1D6A7 /* SunshineV2AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D68B9328335E9A00D1D6A7 /* SunshineV2AppApp.swift */; };
 		64D68B9628335E9A00D1D6A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D68B9528335E9A00D1D6A7 /* ContentView.swift */; };
 		64D68B9828335EA800D1D6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D68B9728335EA800D1D6A7 /* Assets.xcassets */; };
 		64D68B9B28335EA800D1D6A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D68B9A28335EA800D1D6A7 /* Preview Assets.xcassets */; };
+		64D68BA5283360BF00D1D6A7 /* primarybutton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D68BA4283360BF00D1D6A7 /* primarybutton.swift */; };
+		765D3073CC92916C6EE23C95 /* Pods_SunshineV2App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A379F5A9054D7F1FF60BCB /* Pods_SunshineV2App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07A379F5A9054D7F1FF60BCB /* Pods_SunshineV2App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunshineV2App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1519150213E1D6698CAB48BD /* Pods-SunshineV2App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunshineV2App.release.xcconfig"; path = "Target Support Files/Pods-SunshineV2App/Pods-SunshineV2App.release.xcconfig"; sourceTree = "<group>"; };
+		6436F3F928336DC700656F68 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		6436F3FC283375F200656F68 /* selectionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectionview.swift; sourceTree = "<group>"; };
+		6436F3FF2833772500656F68 /* modebutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modebutton.swift; sourceTree = "<group>"; };
+		6436F408283380C500656F68 /* navigationbutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationbutton.swift; sourceTree = "<group>"; };
+		6436F40C2833823A00656F68 /* questionview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionview.swift; sourceTree = "<group>"; };
+		6436F40F28338C7B00656F68 /* explainview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = explainview.swift; sourceTree = "<group>"; };
+		6479C57B2835EC1900A2BA71 /* progressbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressbar.swift; sourceTree = "<group>"; };
+		6479C57E2835F22300A2BA71 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6489A509283A49C300A10D3D /* gameoverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameoverview.swift; sourceTree = "<group>"; };
+		64A3030228362019002AFD2D /* langitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = langitem.swift; sourceTree = "<group>"; };
+		64A303272836567D002AFD2D /* answerrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerrow.swift; sourceTree = "<group>"; };
+		64A3032A2836570D002AFD2D /* answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answer.swift; sourceTree = "<group>"; };
 		64D68B9028335E9A00D1D6A7 /* SunshineV2App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunshineV2App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D68B9328335E9A00D1D6A7 /* SunshineV2AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunshineV2AppApp.swift; sourceTree = "<group>"; };
 		64D68B9528335E9A00D1D6A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64D68B9728335EA800D1D6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D68B9A28335EA800D1D6A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64D68B9C28335EA800D1D6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D68BA4283360BF00D1D6A7 /* primarybutton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primarybutton.swift; sourceTree = "<group>"; };
+		9BC19C1E9EA08DEAF6BB5DAB /* Pods-SunshineV2App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunshineV2App.debug.xcconfig"; path = "Target Support Files/Pods-SunshineV2App/Pods-SunshineV2App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +57,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765D3073CC92916C6EE23C95 /* Pods_SunshineV2App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E1305B3896F155BF58A8A63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BC19C1E9EA08DEAF6BB5DAB /* Pods-SunshineV2App.debug.xcconfig */,
+				1519150213E1D6698CAB48BD /* Pods-SunshineV2App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		64A302EB28361D64002AFD2D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				64A3030228362019002AFD2D /* langitem.swift */,
+				64A3032A2836570D002AFD2D /* answer.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
 		64D68B8728335E9A00D1D6A7 = {
 			isa = PBXGroup;
 			children = (
 				64D68B9228335E9A00D1D6A7 /* SunshineV2App */,
 				64D68B9128335E9A00D1D6A7 /* Products */,
+				3E1305B3896F155BF58A8A63 /* Pods */,
+				6F4E5D0F4324D51B506868CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +103,15 @@
 		64D68B9228335E9A00D1D6A7 /* SunshineV2App */ = {
 			isa = PBXGroup;
 			children = (
+				64A302EB28361D64002AFD2D /* models */,
+				6479C57E2835F22300A2BA71 /* GoogleService-Info.plist */,
+				64D68BA72833620F00D1D6A7 /* views */,
+				64D68BA32833607700D1D6A7 /* components */,
 				64D68B9328335E9A00D1D6A7 /* SunshineV2AppApp.swift */,
-				64D68B9528335E9A00D1D6A7 /* ContentView.swift */,
 				64D68B9728335EA800D1D6A7 /* Assets.xcassets */,
 				64D68B9C28335EA800D1D6A7 /* Info.plist */,
 				64D68B9928335EA800D1D6A7 /* Preview Content */,
+				6436F3F928336DC700656F68 /* extensions.swift */,
 			);
 			path = SunshineV2App;
 			sourceTree = "<group>";
@@ -69,6 +124,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64D68BA32833607700D1D6A7 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				64D68BA4283360BF00D1D6A7 /* primarybutton.swift */,
+				6436F3FF2833772500656F68 /* modebutton.swift */,
+				6436F408283380C500656F68 /* navigationbutton.swift */,
+				6479C57B2835EC1900A2BA71 /* progressbar.swift */,
+				64A303272836567D002AFD2D /* answerrow.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		64D68BA72833620F00D1D6A7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				64D68B9528335E9A00D1D6A7 /* ContentView.swift */,
+				6436F3FC283375F200656F68 /* selectionview.swift */,
+				6436F40F28338C7B00656F68 /* explainview.swift */,
+				6436F40C2833823A00656F68 /* questionview.swift */,
+				6489A509283A49C300A10D3D /* gameoverview.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6F4E5D0F4324D51B506868CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A379F5A9054D7F1FF60BCB /* Pods_SunshineV2App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64D68B9F28335EA800D1D6A7 /* Build configuration list for PBXNativeTarget "SunshineV2App" */;
 			buildPhases = (
+				A50BB1B6AADA94FDA88BDE56 /* [CP] Check Pods Manifest.lock */,
 				64D68B8C28335E9A00D1D6A7 /* Sources */,
 				64D68B8D28335E9A00D1D6A7 /* Frameworks */,
 				64D68B8E28335E9A00D1D6A7 /* Resources */,
+				7D75CA87181C72C4C67B8721 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +217,73 @@
 			files = (
 				64D68B9B28335EA800D1D6A7 /* Preview Assets.xcassets in Resources */,
 				64D68B9828335EA800D1D6A7 /* Assets.xcassets in Resources */,
+				6479C57F2835F22300A2BA71 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D75CA87181C72C4C67B8721 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunshineV2App/Pods-SunshineV2App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunshineV2App/Pods-SunshineV2App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SunshineV2App/Pods-SunshineV2App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50BB1B6AADA94FDA88BDE56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunshineV2App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64D68B8C28335E9A00D1D6A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6479C57C2835EC1900A2BA71 /* progressbar.swift in Sources */,
+				6436F40D2833823B00656F68 /* questionview.swift in Sources */,
+				64A303282836567D002AFD2D /* answerrow.swift in Sources */,
+				6436F4002833772500656F68 /* modebutton.swift in Sources */,
+				6489A50A283A49C300A10D3D /* gameoverview.swift in Sources */,
+				64A3032B2836570D002AFD2D /* answer.swift in Sources */,
 				64D68B9628335E9A00D1D6A7 /* ContentView.swift in Sources */,
+				64D68BA5283360BF00D1D6A7 /* primarybutton.swift in Sources */,
+				6436F41028338C7B00656F68 /* explainview.swift in Sources */,
 				64D68B9428335E9A00D1D6A7 /* SunshineV2AppApp.swift in Sources */,
+				6436F409283380C500656F68 /* navigationbutton.swift in Sources */,
+				6436F3FD283375F200656F68 /* selectionview.swift in Sources */,
+				6436F3FA28336DC700656F68 /* extensions.swift in Sources */,
+				64A3030328362019002AFD2D /* langitem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +408,7 @@
 		};
 		64D68BA028335EA800D1D6A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC19C1E9EA08DEAF6BB5DAB /* Pods-SunshineV2App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +431,7 @@
 		};
 		64D68BA128335EA800D1D6A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1519150213E1D6698CAB48BD /* Pods-SunshineV2App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

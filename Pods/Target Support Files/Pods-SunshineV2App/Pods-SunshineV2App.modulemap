@@ -1,0 +1,6 @@
+framework module Pods_SunshineV2App {
+  umbrella header "Pods-SunshineV2App-umbrella.h"
+
+  export *
+  module * { export * }
+}

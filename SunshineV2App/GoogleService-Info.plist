@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>537675663776-rhkot3vjue5lqj8i58e31lv23775hnog.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.537675663776-rhkot3vjue5lqj8i58e31lv23775hnog</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAhZ5gblmQ93lirWqMC2zjPODc8s_BkdhI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>537675663776</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.SunshineV2App.SunshineV2App</string>
+	<key>PROJECT_ID</key>
+	<string>sunshinelanguages-fxxkitall</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sunshinelanguages-fxxkitall.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:537675663776:ios:42e95216a469153b863cc5</string>
+</dict>
+</plist>
